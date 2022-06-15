@@ -1,0 +1,20 @@
+{
+  "name": "testapp3",
+  "version": "1.0.0",
+  "description": "App to test Trakt API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Joanna",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+extends layout 
+
+block layout-content
+  h1 Top 15 movies
+  table 
+    thead 
+      tr 
+        th Show movie 
+        th Year 
+    tbody 
+      each tm in topmovies
+        tr 
+          td 
+            a(href="https://imdb.com/title/" + tm.ids.imdb) #{tm.title}
+          td #{tm.year}
